@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<!--https://is.gd/m6ltBS -->
+<!--https://is.gd/D89nu8 -->
+
+<html>
+<head>
+<title>BMI Calculator </title>
+ <meta charset="utf-8">
+ <!-- theme
+ <link rel="stylesheet" href="css/Themes/mytheme.css" />
+ <link rel="stylesheet" href="css/Themes/jquery.mobile.icons.min.css" />
+  -->
+ <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+ <link rel="stylesheet" href="css/Colour.3.css" />
+ <link rel="stylesheet" href="css/Colour.3.min.css" />
+ <script src="js/jquery-1.11.1.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<script language ="Javascript" src= "js/script.js" type = "text/javascript" ></script>
+<style>
+.logo{
+	opacity: .5;
+}
+.demo{
+	padding-top: 100px;
+	padding-left:  20%;
+	padding-right: 20%;}
+
+</style>
+
+
+<body>
+
+<div data-role="page" id="intro">
+
+	<div role="main" class="ui-content">
+
+	<img src="img/Gym1.jpg" width="100%">
+
+	</div>
+</div>
+
+<div data-role="page" id="bmi-calc">
+
+	<div data-role="header">
+		<h1>Slupko Gymnasium</h1>
+	</div>
+
+
+
+<p> <a href="#new-customer" class="ui-btn ui-btn-a">Registration For New Members</a> </p>
+<p> <a href="#Login" class="ui-btn ui-btn-a">Login</a> </p>
+
+</div>
+
+<!-- Start Audi Page-->
+<div data-role="page" id="audi">
+
+<div data-role="header">
+ <h1>Booking Appointment</h1>
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="Book" data-title="Panel responsive page">
+    
+</div><!-- /header -->
+</div>
+
+<div role="main" class="ui-content jqm-content jqm-fullwidth">
+         <h1>Appointment Details</h1>
+ <form>
+     <label for="text-1">Personal Gym PIN Numbers:</label>
+     <input type="text" name="text-1" id="text-1" value="">
+ </form>
+
+ <form>
+     <label for="text-1">Enter First Name:</label>
+     <input type="text" name="text-1" id="text-1" value="">
+     <label for="text-1">Enter Second Name:</label>
+     <input type="text" name="text-1" id="text-1" value="">
+ </form>
+
+ 	<div class="ui-field-contain">
+     <label for="select-custom-2">Personal Trainer:</label>
+     <select name="select-custom-2" id="select-custom-5" data-iconpos="left">
+         <option value="1">Bob Marley</option>
+         <option value="2">Jennifer Hueston</option>
+ 		     <option value="2">Big Sean</option>
+     </select>
+ </div>
+
+ 	<div class="ui-field-contain">
+     <label for="select-native-3">Choose Appointment Day:</label>
+     <select name="select-native-3" id="select-native-3" data-iconpos="left">
+         <option value="1">Monday</option>
+         <option value="2">Tuesday</option>
+         <option value="3">Wednesday</option>
+         <option value="4">Thursday</option>
+ 		     <option value="5">Friday</option>
+         <option value="6">Saturday</option>
+         <option value="7">Sunday</option>
+     </select>
+ </div>
+
+
+ <form>
+     <div class="ui-field-contain">
+         <label for="select-native-3">Choose Available Appointment Time:</label>
+         <select name="select-native-3" id="select-native-3" data-iconpos="left">
+            <option value="1">9:30-10:30</option>
+            <option value="2">10:00-11:00</option>
+            <option value="3">10:30-11:30</option>
+            <option value="4">11:00-12:00</option>
+         		<option value="4">11:30-12:30</option>
+         		<option value="4">14:00-15:00</option>
+         		<option value="4">14:30-15:30</option>
+         		<option value="4">15:00-16:00</option>
+         		<option value="4">15:30-16:30</option>
+         </select>
+
+     </div>
+ </form>
+
+ <a href="#main" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Back</a>
+ <a href="#main" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-right">Confirm</a>
+     </div><!-- /content -->
+
+</div><!-- /page -->
+
+<div data-role="page" id="Login">
+
+<div data-role="header">
+ <h1>Login Details</h1>
+</div><!-- /header -->
+
+<div role="main" class="ui-content">
+  <form>
+      <label for="text-1">Email Address:</label>
+      <input type="text" name="text-1" id="text-1" value="">
+      <label for="text-1">Password:</label>
+      <input type="text" name="text-1" id="text-1" value="">
+  </form>
+
+  <a href="#main" class="ui-btn">Submit</a>
+
+</div><!-- /content -->
+
+</div>
+
+<div data-role="page" id="new-customer">
+
+<div data-role="header">
+  <h1>New Customer</h1>
+</div><!-- /header -->
+
+<p>
+	<label for="text-basic">Email:</label>
+  <input type="text" name="text-basic" id="text-basic" value="" placeholder ="MyEmail@gmail.com">
+</p>
+
+<p>
+	<label for="password">Password:</label>
+  <input type="password" name="password" id="password" value="" autocomplete="off">
+</p>
+
+<p>
+	<label for="password"> Confirm Password:</label>
+  <input type="password" name="password" id="password" value="" autocomplete="off">
+</p>
+
+<p>
+	<label for="text-basic">First Name:</label>
+  <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+</p>
+
+
+<p>
+	<label for="text-basic">Surname:</label>
+  <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+</p>
+
+
+<p>
+	<label for="text-basic">Address 1:</label>
+  <input type="text" name="text-basic" id="text-basic" value="" placeholder ="Required">
+</p>
+
+<p>
+	<label for="text-basic">Address 2:</label>
+  <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+</p>
+
+<p>
+	<label for="text-basic">Post Code:</label>
+  <input type="text" name="text-basic" id="text-basic" value="" placeholder ="Required">
+</p>
+
+<p>
+	<label for="text-basic">County:</label>
+  <input type="text" name="text-basic" id="text-basic" value="" placeholder ="Required">
+</p>
+
+	<p>
+	<label for="text-basic">Phone Number:</label>
+<input type="text" name="text-basic" id="text-basic" value="" placeholder ="+353">
+	</p>
+
+<div class="ui-field-contain">
+    <label for="select-custom-1">Payment Method:</label>
+    <select name="select-custom-1" id="select-custom-1" data-native-menu="false">
+        <option value="1">AIB</option>
+        <option value="2">PayPal</option>
+        <option value="3">Master Card</option>
+        <option value="4">Ulster Bank</option>
+    </select>
+</div>
+
+<form>
+<fieldset data-role="controlgroup" data-mini="true">
+    <legend>DOB:</legend>
+    <label for="select-v-6a">Day</label>
+    <select name="select-v-6a" id="select-v-6a">
+        <option value="#">1</option>
+        <option value="#">2</option>
+        <option value="#">3</option>
+ 		    <option value="#">4</option>
+        <option value="#">5</option>
+        <option value="#">6</option>
+		    <option value="#">7</option>
+        <option value="#">8</option>
+        <option value="#">9</option>
+ 		    <option value="#">10</option>
+        <option value="#">11</option>
+        <option value="#">12</option>
+ 		    <option value="#">13</option>
+        <option value="#">14</option>
+        <option value="#">15</option>
+ 		    <option value="#">16</option>
+        <option value="#">17</option>
+        <option value="#">18</option>
+		    <option value="#">19</option>
+        <option value="#">20</option>
+        <option value="#">21</option>
+ 		    <option value="#">22</option>
+        <option value="#">23</option>
+		    <option value="#">24</option>
+ 		    <option value="#">25</option>
+        <option value="#">26</option>
+		    <option value="#">27</option>
+        <option value="#">28</option>
+ 		    <option value="#">29</option>
+        <option value="#">30</option>
+		    <option value="#">31</option>
+    </select>
+    <label for="select-v-6b">Month</label>
+    <select name="select-v-6b" id="select-v-6b">
+        <option value="#">January</option>
+        <option value="#">February</option>
+        <option value="#">March</option>
+    		<option value="#">April</option>
+        <option value="#">May</option>
+    		<option value="#">June</option>
+    		<option value="#">July</option>
+    		<option value="#">August</option>
+    		<option value="#">September</option>
+    		<option value="#">October</option>
+    		<option value="#">November</option>
+    		<option value="#">December</option>
+    </select>
+    <label for="select-v-6c">Select C</label>
+    <select name="select-v-6c" id="select-v-6c">
+        <option value="#">1990</option>
+        <option value="#">1991</option>
+        <option value="#">1992</option>
+		    <option value="#">1993</option>
+        <option value="#">1994</option>
+        <option value="#">1995</option>
+		    <option value="#">1996</option>
+        <option value="#">1997</option>
+        <option value="#">1998</option>
+		    <option value="#">1999</option>
+        <option value="#">2000</option>
+        <option value="#">2001</option>
+    </select>
+</fieldset>
+</form>
+
+<form>
+    <a href= "#">I have read and agree to the terms and conditions</a>
+    <input type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    <label for="checkbox-mini-0">I Agree</label
+</form>
+
+<p> <a href="#main" class="ui-btn ui-btn-a">Submit</a> </p>
+
+<div data-role="footer">
+ <h4>Page Footer</h4>
+</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="main">
+
+<div data-role="header">
+ <h1>Main menu</h1>
+</div><!-- /header -->
+
+<div role="main" class="ui-content">
+  <h1>Welcome</h1>
+
+  <div role="main" class="ui-content">
+  		<ul data-role="listview" data-inset="true">
+  		    <p> <a href="#audi" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-calendar">Book An Appointment</a> </p>
+          <p> <a href="#time" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-clock">Opening Hours</a> </p>
+          <p> <a href="#appointments" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-calendar">Appointment(s) Booked</a> </p>
+  		    <p> <a href="#bmi-cal" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-heart">BMI</a> </p>
+  		    <p> <a href="#acc" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-refresh">Edit\View Account Details</a> </p>
+          <p> <a href="#Login" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-power">Logout</a> </p>
+  		</ul>
+  	</div>
+
+</div><!-- /content -->
+</div>
+
+<!-- Start Audi Page-->
+<div data-role="page" id="acc">
+
+<div data-role="header">
+ <h1>Account</h1>
+    
+</div><!-- /header -->
+
+<div role="main" class="ui-content jqm-content jqm-fullwidth">
+  <h1>Account Details</h1>
+
+  <p>
+  	<label for="text-basic">Gym PIN:</label>
+    <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+  </p>
+
+  <p>
+  	<label for="text-basic">First Name:</label>
+    <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+  </p>
+
+  <p>
+    <label for="text-basic">Surname:</label>
+    <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+  </p>
+
+  <p>
+  	<label for="text-basic">Address:</label>
+    <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+  </p>
+
+  <p>
+  	<label for="text-basic">Address 2 :</label>
+    <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+  </p>
+
+  <p>
+  	<label for="text-basic">Phone Number:</label>
+    <input type="text" name="text-basic" id="text-basic" value="" placeholder ="">
+  </p>
+
+  	<form>
+  <fieldset data-role="controlgroup" data-mini="true">
+      <legend>Remove Accounts :</legend>
+      <label for="select-v-6a">Choose Account</label>
+      <select name="select-v-6a" id="select-v-6a">
+          <option value="#">Choose Account</option>
+          <option value="#">Account Name</option>
+          <option value="#">Account Name</option>
+   		<option value="#">Account Name</option>
+      </select>
+  </fieldset>
+  </form>
+  <a href="#main" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Back</a>
+  <a href="#main" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-right">Confirm</a>
+     </div><!-- /content -->
+ </div>
+
+
+
+
+<div data-role="page" id="bmi-cal">
+
+	<div data-role="header">
+		<h1>BMI Calculator</h1>
+	</div>
+
+	<div role="main" class="ui-content">
+<form name="bmiForm">
+	Your Weight(kg): <input type="text" name="weight" id="weight" size="10"><br />
+	Your Height(cm): <input type="text" name="height" id="height" size="10"><br />
+	<input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
+	Your BMI: <input type="text" id="bmi" id="bmi" size="10"><br />
+	<p id="feedback">This Means:</p>
+	<input type="reset" value="Reset" />
+
+</form>
+
+  <a href="#main" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Back</a>
+
+	</div>
+</div>
+
+<div data-role="page" id="time">
+
+<div data-role="header">
+ <h1>Opening Times</h1>
+</div><!-- /header -->
+
+<div role="main" class="ui-content">
+
+  <div class="ui-grid-b">
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">9:00-17:00 Monday</div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">9:00-17:00 Tuesday</div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">9:00-17:00 Wednesday</div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">9:00-17:00 Thursday</div></div>
+</div><!-- /grid-b -->
+
+<div class="ui-grid-b">
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">9:00-17:00 Friday</div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">9:00-17:00 Saturday</div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">9:00-17:00 Sunday</div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">9:00-15:00   Bank Holiday</div></div>
+</div><!-- /grid-b -->
+
+<a href="#main" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Back</a>
+
+</div><!-- /content -->
+
+</div>
+
+
+<div data-role="page" id="appointments">
+
+<div data-role="header">
+ <h1>Appointments Booked</h1>
+</div><!-- /header -->
+
+<div role="main" class="ui-content">
+
+  <div class="ui-field-contain">
+      <label for="select-custom-2">Appointment List:</label>
+      <select name="select-custom-2" id="select-custom-2" data-native-menu="false">
+          <option value="1">Appointment 1</option>
+          <option value="2">Appointment 2</option>
+  		<option value="2">Appointment 3</option>
+  		<option value="2">Appointment 4</option>
+      </select>
+  </div>
+
+  <div class="ui-field-contain">
+      <label for="select-custom-2">Appointment Room:</label>
+      <select name="select-custom-2" id="select-custom-3" data-native-menu="false">
+          <option value="1">1</option>
+          <option value="2">2</option>
+  		<option value="2">3</option>
+
+      </select>
+  </div>
+
+  <div class="ui-field-contain">
+      <label for="select-custom-2">Personal Trainer(s):</label>
+      <select name="select-custom-2" id="select-custom-4" data-native-menu="false">
+          <option value="1">Bob Marley</option>
+          <option value="2">Jennifer Hueston</option>
+  		<option value="3">Big Sean</option>
+      </select>
+  </div>
+
+     <form>
+  <div class="ui-field-contain">
+      <label for="select-native-3">Appointment Day:</label>
+      <select name="select-native-3" id="select-native-3" data-iconpos="left">
+          <option value="1">Monday</option>
+          <option value="2">Tuesday</option>
+          <option value="3">Wednesday</option>
+          <option value="4">Thursday</option>
+  		<option value="4">Friday</option>
+  		<option value="4">Saturday</option>
+  		<option value="4">Sunday</option>
+      </select>
+  </div>
+  </form>
+
+  <form>
+  <div class="ui-field-contain">
+      <label for="select-native-3">Appointment Time:</label>
+      <select name="select-native-3" id="select-native-3" data-iconpos="left">
+       <option value="1">9:30-10:30</option>
+       <option value="2">10:00-11:00</option>
+       <option value="3">10:30-11:30</option>
+       <option value="4">11:00-12:00</option>
+       <option value="5">11:30-12:30</option>
+       <option value="6">14:00-15:00</option>
+       <option value="7">14:30-15:30</option>
+       <option value="8">15:00-16:00</option>
+       <option value="9">15:30-16:30</option>
+      </select>
+  </div>
+  </form>
+
+  <form>
+  <div class="ui-field-contain">
+      <label for="select-native-3">Appointment Scheduled:</label>
+      <select name="select-native-3" id="select-native-3" data-iconpos="left">
+          <option value="1">15/1/2020</option>
+          <option value="2">16/1/2020</option>
+  		    <option value="1">17/1/2020</option>
+          <option value="2">18/1/2020</option>
+  		    <option value="1">19/1/2020</option>
+          <option value="2">20/1/2020</option>
+  		    <option value="1">21/1/2020</option>
+          <option value="2">22/1/2020</option>
+  		    <option value="1">23/1/2020</option>
+          <option value="2">24/1/2020</option>
+          
+      </select>
+  </div>
+  </form>
+
+  <form>
+      <label for="flip-2">Attending</label>
+      <select name="flip-2" id="flip-2" data-role="flipswitch" data-theme="b">
+          <option value="off">No</option>
+          <option value="on">Yes</option>
+      </select>
+  </form>
+
+<a href="#main" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Back</a>
+<a href="#main" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">Confirm</a>
+
+</div><!-- /content -->
+
+</div>
+
+
+
+<script src="js/gsap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
